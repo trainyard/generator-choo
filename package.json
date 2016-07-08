@@ -1,0 +1,47 @@
+{
+  "name": "generator-choo",
+  "version": "0.0.0",
+  "description": "Scaffold a choo app",
+  "license": "MIT",
+  "repository": "sotojuan/generator-choo",
+  "author": {
+    "name": "Juan Soto",
+    "email": "juan@juansoto.me",
+    "url": "juansoto.me"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "standard | snazzy --verbose && ava --verbose"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "choo"
+  ],
+  "dependencies": {
+    "lodash.kebabcase": "^4.0.1",
+    "pify": "^2.3.0",
+    "yeoman-generator": "^0.23.4"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "babel-eslint": "^6.1.0",
+    "snazzy": "^4.0.0",
+    "standard": "^7.1.2",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.4.0"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "app"
+    ]
+  }
+}

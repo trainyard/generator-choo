@@ -1,0 +1,19 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "<%= githubUsername %>/<%= projectName %>",
+  "scripts": {
+    "start": "",
+    "deploy": "",
+    "test": "standard | snazzy --verbose"
+  },
+  "dependencies": {
+    "choo": "^3.0.2"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "snazzy": "^4.0.0"
+  }
+}
