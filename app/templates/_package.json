@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "<%= githubUsername %>/<%= projectName %>",
   "scripts": {
-    "start": "",
+    "start": "budo index.js",
     "deploy": "",
     "test": "standard | snazzy --verbose"
   },
@@ -13,6 +13,7 @@
     "choo": "^3.0.2"
   },
   "devDependencies": {
+    "budo": "8.3.0",
     "standard": "^7.1.2",
     "snazzy": "^4.0.0"
   }
