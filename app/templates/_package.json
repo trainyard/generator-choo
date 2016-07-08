@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "<%= githubUsername %>/<%= projectName %>",
   "scripts": {
-    "start": "budo index.js",
+    "start": "budo index.js --live",
     "deploy": "",
     "test": "standard | snazzy --verbose"
   },
