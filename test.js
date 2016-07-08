@@ -24,6 +24,7 @@ test.serial('generates expected files', async () => {
     '.git',
     '.gitignore',
     'index.js',
+    'style.css',
     'license',
     'package.json',
     'readme.md'

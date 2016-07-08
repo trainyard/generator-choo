@@ -1,5 +1,8 @@
 const choo = require('choo')
 const html = require('choo/html')
+const sf = require('sheetify')
+
+sf('./style.css', { global: true })
 
 const app = choo()
 
