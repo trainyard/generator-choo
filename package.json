@@ -28,7 +28,7 @@
   "dependencies": {
     "lodash.kebabcase": "^4.0.1",
     "pify": "^2.3.0",
-    "yeoman-generator": "^0.23.4"
+    "yeoman-generator": "^0.24.1"
   },
   "devDependencies": {
     "ava": "^0.15.1",
