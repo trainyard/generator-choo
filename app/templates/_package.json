@@ -1,13 +1,13 @@
 {
   "name": "<%= projectName %>",
   "version": "0.0.0",
-  "description": "",
+  "description": "<%= projectDescription %>",
   "license": "MIT",
   "repository": "<%= githubUsername %>/<%= projectName %>",
   "scripts": {
     "start": "npm run dev:server",
     "lint": "eslint src",
-    "dev:server": "budo src/index.js --title <%= projectName %> -P -o -l src -- -t sheetify/transform -g es2040",
+    "dev:server": "budo src/index.js --title <%= projectName %> --host -P -o -l static -- -t sheetify/transform -g es2040",
     "build:prod": "scripts/build-prod.sh",
     "test": "scripts/tests.sh"
   },
@@ -15,15 +15,13 @@
     "choo": "^3.0.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.11.4",
-    "browserify": "^13.0.1",    
-    "babel-eslint": "^6.1.0",
+    "browserify": "^13.0.1",
     "budo": "8.3.0",
     "es2040": "1.2.2",
     "eslint": "3.1.1",
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-promise": "^2.0.0",
-    "eslint-plugin-standard": "^2.0.0",    
+    "eslint-plugin-standard": "^2.0.0",
     "envify": "^3.4.1",
     "normalize.css": "^4.1.1",
     "sheetify": "^5.0.3",

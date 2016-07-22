@@ -1,5 +1,4 @@
-<div align='center'>
-  <h3>You're early!</h3>
+# <%= projectName %>
+*<%= projectDescription %>*
 
-  <p>Come back soon to see the finished app and docs.</p>
-</div>
+## Contributing
