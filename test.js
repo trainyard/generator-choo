@@ -22,7 +22,6 @@ test.serial('generates expected files', async () => {
 
   assert.file([
     '.editorconfig',
-    '.eslintrc',
     '.git',
     '.gitignore',
     'license',
@@ -30,5 +29,6 @@ test.serial('generates expected files', async () => {
     'readme.md',
     'src/index.js',
     'src/styles/main.css',
+    'static/index.html',
   ])
 })

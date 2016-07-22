@@ -44,7 +44,6 @@ module.exports =
 
         mv('editorconfig', '.editorconfig')
         mv('gitignore', '.gitignore')
-        mv('eslintrc', '.eslintrc')
         mv('_package.json', 'package.json')
       })
     }
