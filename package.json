@@ -3,20 +3,29 @@
   "version": "0.0.0",
   "description": "Scaffold a choo app",
   "license": "MIT",
-  "repository": "sotojuan/generator-choo",
-  "author": {
-    "name": "Juan Soto",
-    "email": "juan@juansoto.me",
-    "url": "juansoto.me"
-  },
+  "repository": "trainyard/generator-choo",
+  "contributors": [
+    {
+      "name": "Juan Soto",
+      "email": "juan@juansoto.me",
+      "url": "juansoto.me"
+    },
+    {
+      "name": "Matt McFarland",
+      "email": "contact@mattmcfarland.com",
+      "url": "https://github.com/MattMcFarland"
+    }
+  ],
   "engines": {
     "node": ">=4.0.0"
   },
   "scripts": {
-    "test": "standard | snazzy --verbose && ava --verbose"
+    "test": "eslint app && ava --verbose"
   },
   "files": [
-    "app"
+    "app",
+    "license",
+    "readme.md"
   ],
   "keywords": [
     "yeoman-generator",
@@ -33,15 +42,10 @@
   "devDependencies": {
     "ava": "^0.15.1",
     "babel-eslint": "^6.1.0",
-    "snazzy": "^4.0.0",
-    "standard": "^7.1.2",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0",
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.4.0"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "ignore": [
-      "app"
-    ]
   }
 }

@@ -1,10 +1,10 @@
 'use strict'
-
 const yeoman = require('yeoman-generator')
 const kebab = require('lodash.kebabcase')
 
 module.exports =
   class extends yeoman.Base {
+    /* eslint-disable no-useless-constructor */
     constructor (a, b) {
       super(a, b)
     }
@@ -32,7 +32,7 @@ module.exports =
         }
 
         this.fs.copyTpl([
-          `${this.templatePath()}/**`,
+          `${this.templatePath()}/**`
         ], this.destinationPath(), tpl)
 
         mv('editorconfig', '.editorconfig')
