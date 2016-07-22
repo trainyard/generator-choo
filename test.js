@@ -14,19 +14,21 @@ test.beforeEach(async () => {
 test.serial('generates expected files', async () => {
   helpers.mockPrompt(generator, {
     projectName: 'test',
-    githubUsername: 'test'
+    githubUsername: 'test',
+    projectDescription: ''
   })
 
   await pify(generator.run.bind(generator))()
 
   assert.file([
     '.editorconfig',
+    '.eslintrc',
     '.git',
     '.gitignore',
-    'index.js',
-    'style.css',
     'license',
     'package.json',
-    'readme.md'
+    'readme.md',
+    'src/index.js',
+    'src/styles/main.css',
   ])
 })

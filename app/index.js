@@ -15,13 +15,20 @@ module.exports =
         default: this.appname.replace(/\s/g, '-'),
         filter: x => kebab(x)
       }, {
+        name: 'projectDescription',
+        message: 'A brief description of your app?',
+        default: ''
+      },
+      {
         name: 'githubUsername',
         message: 'What is your GitHub username?',
         store: true,
         validate: x => x.length > 0 ? true : 'You have to provide a username'
       }]).then(props => {
+        console.log(props)
         const tpl = {
           projectName: props.projectName,
+          projectDescription: props.projectDescription,
           githubUsername: props.githubUsername,
           name: this.user.git.name(),
           email: this.user.git.email()
@@ -37,6 +44,7 @@ module.exports =
 
         mv('editorconfig', '.editorconfig')
         mv('gitignore', '.gitignore')
+        mv('eslintrc', '.eslintrc')
         mv('_package.json', 'package.json')
       })
     }
