@@ -5,7 +5,7 @@ module.exports = (state, prev, send) => html`
     <div class="container">
       <a href="/" class="brand">
         <div class="logo">🚋</div>
-        <h1></h1>
+        <h1><%= projectName %></h1>
       </a>
       <nav class="site-navigation">
         <a href="/">Home</a>
