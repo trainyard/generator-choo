@@ -1,6 +1,6 @@
 const html = require('choo/html')
 const header = require('../components/site-header')
-const footer = require('../components/footer')
+const footer = require('../components/site-footer')
 
 module.exports = (state, prev, send) => html`
   <main>

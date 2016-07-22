@@ -21,7 +21,7 @@ module.exports = (state, prev, send) => html`
     
     <section class="container color-white well center-text">
       <h3>Congrats!</h3>
-      <div><img src="/images/yeoman.png"/></div>
+      <div><img src="//yeoman.io/static/yeoman-character-sticker.51cef7e007.png"/></div>
       <p><em>You did it!! Now to make something <strong>amazing</strong></em></p>
     </section>
     <section class="content container">

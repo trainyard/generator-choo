@@ -1,5 +1,5 @@
 {
-  "name": "<% projectName =%>",
+  "name": "<%= projectName %>",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
