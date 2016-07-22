@@ -6,7 +6,7 @@
   "repository": "<%= githubUsername %>/<%= projectName %>",
   "scripts": {
     "start": "npm run dev:server",
-    "dev:server": "budo src/index.js --title <%= projectName %> --host -P -o -l static -- -t sheetify/transform -g es2040",
+    "dev:server": "scripts/dev-server.js",
     "build:prod": "scripts/build-prod.sh",
     "lint": "standard --verbose | snazzy",
     "test": "npm run lint && ava --verbose"
