@@ -1,20 +1,26 @@
 # generator-choo
 
-A yeoman generator for choo.
+A [Yeoman](http://yeoman.io/) generator for [Choo](https://github.com/yoshuawuyts/choo).
 
 ## Quick Start
 
-Because we haven't officially reuleased yet, installation is done via github.  To install, clone the repo then use `npm link` - the current version should be working.  More thorough instructions below:
+Because we haven't officially released yet, installation is done via github.  To install, clone the repo then use `npm link` (explained below) - the current version should be working.  More thorough instructions below:
 
 ### Installation
 
-Use git clone to download the repo, the following command will download and unpack it in a directory called `generator-choo`
+Make sure you have [Yeoman](http://yeoman.io/) and [Link](https://docs.npmjs.com/cli/link) installed globally.
+
+```
+npm install link yo -g
+```
+
+Use git clone to pull down the repo, the following command will download and unpack it in a directory called `generator-choo`
 ```
 git clone https://github.com/trainyard/generator-choo
 ```
-Next, install the generator's dependencies and then run npm link:
+Next, `cd` into the directory, install the generator's dependencies, and then run `npm link`:
 ```
-cd generator-choo ; npm install && npm link -g
+cd generator-choo; npm install && npm link
 ```
 Awesome, you are now ready to use it!
 
@@ -32,7 +38,7 @@ Follow the prompts to victory!!! Once the process is complete your app should be
  - `npm run build:prod` -- Builds a production ready index.html and bundle.js that you can serve remotely.
  - `npm run lint` -- Lints your code.
 
-There are a number of build scripts that are not complete yet, but will be available soon. Specifically around testing and deploying, along with scaffolding out different parts.
+There are a number of build scripts that are not complete yet, but will be available soon, specifically around testing and deploying, along with scaffolding out different parts.
 
 Stay tuned!!!!
 
