@@ -6,10 +6,11 @@
   "repository": "<%= githubUsername %>/<%= projectName %>",
   "scripts": {
     "start": "npm run dev:server",
+    "deploy": "surge",
     "dev:server": "scripts/dev-server.js",
     "build:prod": "scripts/build-prod.sh",
     "lint": "standard --verbose | snazzy",
-    "test": "npm run lint && ava --verbose"
+    "test": "npm run lint"
   },
   "dependencies": {
     "choo": "^3.0.2"
