@@ -37,16 +37,19 @@
     "choo"
   ],
   "dependencies": {
+    "json-query": "^2.1.1",
     "lodash.kebabcase": "^4.0.1",
     "pify": "^2.3.0",
     "yeoman-generator": "^0.24.1"
   },
   "devDependencies": {
     "ava": "^0.15.1",
-    "standard": "^7.1.2",
+    "deep-equal": "^1.0.1",
     "snazzy": "^4.0.0",
+    "standard": "^7.1.2",
     "yeoman-assert": "^2.2.1",
-    "yeoman-test": "^1.4.0"
+    "yeoman-test": "^1.4.0",
+    "yosay": "^1.2.0"
   },
   "standard": {
     "ignore": [

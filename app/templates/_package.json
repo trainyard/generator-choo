@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm run dev:server",
     "deploy": "surge",
-    "dev:server": "scripts/dev-server.js",
+    "dev:server": "scripts/dev-server.sh",
     "build:prod": "scripts/build-prod.sh",
     "lint": "standard --verbose | snazzy",
     "test": "npm run lint"
