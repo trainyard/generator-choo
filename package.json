@@ -37,6 +37,8 @@
     "choo"
   ],
   "dependencies": {
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
     "json-query": "^2.1.1",
     "lodash.kebabcase": "^4.0.1",
     "pify": "^2.3.0",
@@ -45,6 +47,7 @@
   "devDependencies": {
     "ava": "^0.15.1",
     "deep-equal": "^1.0.1",
+    "eslint": "^3.1.1",
     "snazzy": "^4.0.0",
     "standard": "^7.1.2",
     "yeoman-assert": "^2.2.1",
