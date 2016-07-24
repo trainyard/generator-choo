@@ -1,5 +1,5 @@
 {
-  "name": "generator-choo",
+  "name": "@choo/generator-choo",
   "version": "0.0.0",
   "description": "Scaffold a choo app",
   "license": "MIT",
