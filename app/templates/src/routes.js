@@ -1,5 +1,5 @@
 module.exports = (route) => [
-  route('/', require('./views/home')),
   route('/todos', require('./views/todos')),
-  route('/about', require('./views/about'))
+  route('/about', require('./views/about')),
+  route('/', require('./views/home'))
 ]
