@@ -25,7 +25,7 @@ module.exports =
         store: true,
         validate: x => x.length > 0 ? true : 'You have to provide a username'
       }]).then(props => {
-        console.log(props)
+        this.config.set({projectPath: this.destinationPath()})
         const tpl = {
           projectName: props.projectName,
           projectDescription: props.projectDescription,
