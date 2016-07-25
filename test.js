@@ -28,7 +28,18 @@ test.serial('generates expected files', async () => {
     'package.json',
     'readme.md',
     'src/index.js',
+    'src/routes.js',
+    'src/components/site-footer.js',
+    'src/components/site-header.js',
+    'src/components/todo-filter.js',
+    'src/components/todo-form.js',
+    'src/components/todo-item.js',
+    'src/components/todo-list.js',
+    'src/models/todos.js',
     'src/styles/main.css',
-    'static/index.html',
+    'src/views/about.js',
+    'src/views/home.js',
+    'src/views/todos.js',
+    'static/index.html'
   ])
 })
