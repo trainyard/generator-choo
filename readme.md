@@ -34,6 +34,8 @@ mkdir my-choo-app && cd my-choo-app && yo choo
 
 Follow the prompts to victory!!! Once the process is complete your app should be ready, you can use the following commands:
 
+### NPM Scripts
+
  - `npm start` -- Starts up a dev server with live reloading
  - `npm run build:prod` -- Builds a production ready index.html and bundle.js that you can serve remotely.
  - `npm run lint` -- Lints your code.
@@ -45,7 +47,6 @@ Follow the prompts to victory!!! Once the process is complete your app should be
 - `yo choo:model` -- Create a new choo model.
 - `yo choo:component` -- Create a new choo component
 - `yo choo:element` -- Create a new choo element
-
 
 
 There are a number of build scripts that are not complete yet, but will be available soon, specifically around testing and deploying, along with scaffolding out different parts.
