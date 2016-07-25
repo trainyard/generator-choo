@@ -38,6 +38,16 @@ Follow the prompts to victory!!! Once the process is complete your app should be
  - `npm run build:prod` -- Builds a production ready index.html and bundle.js that you can serve remotely.
  - `npm run lint` -- Lints your code.
 
+### Scaffolding
+
+- `yo choo` -- Create a new choo app
+- `yo choo:view` -- Create a new view that is also wired up to the router
+- `yo choo:model` -- Create a new choo model.
+- `yo choo:component` -- Create a new choo component
+- `yo choo:element` -- Create a new choo element
+
+
+
 There are a number of build scripts that are not complete yet, but will be available soon, specifically around testing and deploying, along with scaffolding out different parts.
 
 Stay tuned!!!!
