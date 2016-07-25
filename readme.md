@@ -48,9 +48,12 @@ Follow the prompts to victory!!! Once the process is complete your app should be
 - `yo choo:component` -- Create a new choo component
 - `yo choo:element` -- Create a new choo element
 
+### Similar Projects
+- [generator-choo-webpack](https://github.com/danneu/generator-choo-webpack) - the minimal choo + webpack yeoman project generator
 
 There are a number of build scripts that are not complete yet, but will be available soon, specifically around testing and deploying, along with scaffolding out different parts.
 
 Stay tuned!!!!
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
+
