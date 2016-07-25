@@ -9,9 +9,12 @@ cp -r static/* dist
 cp static/index.html dist/200.html
 
 # Bundle the main js file.
-NODE_ENV=production browserify -d -e src/index.js -o dist/js/main.js \
+
+# add -d switch for sourcemapping and debugging production.
+NODE_ENV=production browserify -e src/index.js -o dist/js/main.js \
   -t envify \
   -t sheetify/transform \
+  -g yo-yoify \
   -g unassertify \
   -g es2040 \
   -g uglifyify | uglifyjs

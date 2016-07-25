@@ -10,37 +10,10 @@ module.exports = require('yeoman-generator').Base.extend({
   }),
   // Inject the view into the router
   end: function () {
-    // We could have also generate the injection using esprima
-    // const addRoute = `[route('/${this.targetName}', require('./views/${this.targetName}'))]`
-    // const injection = esprima.parse(addRoute).body[0].expression.elements[0]
-    const injection = {
-      type: 'CallExpression',
-      callee: {
-        type: 'Identifier',
-        name: 'route'
-      },
-      arguments: [
-        {
-          type: 'Literal',
-          value: `/${this.targetName}`,
-          raw: `"/${this.targetName}"`
-        },
-        {
-          type: 'CallExpression',
-          callee: {
-            type: 'Identifier',
-            name: 'require'
-          },
-          arguments: [
-            {
-              type: 'Literal',
-              value: `./views/${this.targetName}`,
-              raw: `"./views/${this.targetName}"`
-            }
-          ]
-        }
-      ]
-    }
+    // adds a new route to the routes array, which looks like:
+    //                route('/myNewView', require('./views/myNewView'))
+    const addRoute = `[route('/${this.targetName}', require('./views/${this.targetName}'))]`
+    const injection = esprima.parse(addRoute).body[0].expression.elements[0]
     // if we cannot write to the routes for any reason we should fail silently, because
     // the view has been succesfully made.
     try {
