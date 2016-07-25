@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 NODE_ENV=development budo src/index.js:js/main.js --live \
+  --open \
   --host localhost \
   --dir static \
   --pushstate \
