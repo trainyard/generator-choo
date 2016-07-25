@@ -22,7 +22,9 @@
   "scripts": {
     "prepublish": "npm test",
     "lint": "standard --verbose | snazzy",
-    "test": "npm run lint && ava --verbose"
+    "ava": "ava --verbose",
+    "clean": "rm -rf temp",
+    "test": "npm run lint && npm run ava && npm run clean"
   },
   "files": [
     "app",
