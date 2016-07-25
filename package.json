@@ -27,7 +27,7 @@
     "test": "npm run lint && npm run ava && npm run clean"
   },
   "files": [
-    "app",
+    "generators",
     "license",
     "readme.md"
   ],
