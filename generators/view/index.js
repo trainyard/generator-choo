@@ -44,7 +44,9 @@ module.exports = require('yeoman-generator').Base.extend({
       })
     } catch (e) {
       this.log.skip('src/routes.js')
-      console.log
+      if (process.env.NODE_ENV === 'test') {
+        throw e
+      }
       process.exit(0)
     }
   }
