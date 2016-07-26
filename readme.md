@@ -39,6 +39,7 @@ Follow the prompts to victory!!! Once the process is complete your app should be
  - `npm start` -- Starts up a dev server with live reloading
  - `npm run build:prod` -- Builds a production ready index.html and bundle.js that you can serve remotely.
  - `npm run lint` -- Lints your code.
+ - `npm run deploy` -- Deploy
 
 ### Scaffolding
 
