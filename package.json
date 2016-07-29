@@ -1,6 +1,6 @@
 {
   "name": "generator-choo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scaffold a choo app",
   "license": "MIT",
   "repository": "trainyard/generator-choo",
@@ -24,6 +24,16 @@
       "name": "Ilya Radchenko",
       "email": "ilya@burstcreations.com",
       "url": "http://burstcreations.com/"
+    },
+    {
+      "name": "Ronn Ross",
+      "email": "ronn.ross@gmail.com",
+      "url": "https://github.com/ronnross"
+    },
+    {
+      "name": "Yerko Palma",
+      "email": "yerko.palma@usach.cl",
+      "url": "https://github.com/YerkoPalma"
     }
   ],
   "engines": {
