@@ -1,5 +1,5 @@
 # generator-choo
-[![npm version](https://img.shields.io/npm/v/generator-choo)](https://img.shields.io/npm/v/generator-choo) [![Build Status](https://travis-ci.org/trainyard/generator-choo.svg?branch=master)](https://travis-ci.org/trainyard/generator-choo) ![MIT Licensed](https://img.shields.io/npm/l/generator-choo.svg) [![Coverage Status](https://coveralls.io/repos/github/MattMcFarland/generator-choo/badge.svg?branch=master)](https://coveralls.io/github/MattMcFarland/generator-choo?branch=master)
+[![npm](https://img.shields.io/npm/v/generator-choo.svg?maxAge=2592000)](https://www.npmjs.com/package/generator-choo) [![Build Status](https://travis-ci.org/trainyard/generator-choo.svg?branch=master)](https://travis-ci.org/trainyard/generator-choo) ![MIT Licensed](https://img.shields.io/npm/l/generator-choo.svg) [![Coverage Status](https://coveralls.io/repos/github/trainyard/generator-choo/badge.svg?branch=master)](https://coveralls.io/github/trainyard/generator-choo?branch=master)
 
 A [Yeoman](http://yeoman.io/) generator for [Choo](https://github.com/yoshuawuyts/choo).
 
