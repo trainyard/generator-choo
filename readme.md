@@ -1,5 +1,5 @@
 # generator-choo
-[![npm version](https://badge.fury.io/js/generator-choo.svg)](https://badge.fury.io/js/generator-choo) [![Build Status](https://travis-ci.org/trainyard/generator-choo.svg?branch=master)](https://travis-ci.org/trainyard/generator-choo) [![MIT Licensed](https://img.shields.io/npm/l/generator-choo.svg)]
+[![npm version](https://badge.fury.io/js/generator-choo.svg)](https://badge.fury.io/js/generator-choo) [![Build Status](https://travis-ci.org/trainyard/generator-choo.svg?branch=master)](https://travis-ci.org/trainyard/generator-choo) ![MIT Licensed](https://img.shields.io/npm/l/generator-choo.svg)
 A [Yeoman](http://yeoman.io/) generator for [Choo](https://github.com/yoshuawuyts/choo).
 
 ### Installation

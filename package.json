@@ -1,6 +1,6 @@
 {
   "name": "generator-choo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffold a choo app",
   "license": "MIT",
   "repository": "trainyard/generator-choo",
