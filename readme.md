@@ -1,27 +1,16 @@
 # generator-choo
-
+[![npm version](https://badge.fury.io/js/generator-choo.svg)](https://badge.fury.io/js/generator-choo) [![Build Status](https://travis-ci.org/trainyard/generator-choo.svg?branch=master)](https://travis-ci.org/trainyard/generator-choo) [![MIT Licensed](https://img.shields.io/npm/l/generator-choo.svg)]
 A [Yeoman](http://yeoman.io/) generator for [Choo](https://github.com/yoshuawuyts/choo).
-
-## Quick Start
-
-Because we haven't officially released yet, installation is done via github.  To install, clone the repo then use `npm link` (explained below) - the current version should be working.  More thorough instructions below:
 
 ### Installation
 
-Make sure you have [Yeoman](http://yeoman.io/) and [Link](https://docs.npmjs.com/cli/link) installed globally.
+Make sure you have [Yeoman](http://yeoman.io/) installed globally, then install the generator.
 
 ```
-npm install link yo -g
+npm install -g yo
+npm install -g generator-choo
 ```
 
-Use git clone to pull down the repo, the following command will download and unpack it in a directory called `generator-choo`
-```
-git clone https://github.com/trainyard/generator-choo
-```
-Next, `cd` into the directory, install the generator's dependencies, and then run `npm link`:
-```
-cd generator-choo; npm install && npm link
-```
 Awesome, you are now ready to use it!
 
 ### Usage

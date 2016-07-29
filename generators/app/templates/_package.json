@@ -6,7 +6,8 @@
   "repository": "<%= githubUsername %>/<%= projectName %>",
   "scripts": {
     "start": "npm run dev:server",
-    "deploy": "surge dist || exit 0",
+    "predeploy": "npm test && npm run build:prod",
+    "deploy": "surge dist || npm i surge && surge dist",
     "dev:server": "scripts/dev-server.sh",
     "build:prod": "scripts/build-prod.sh",
     "lint": "standard --verbose | snazzy",
