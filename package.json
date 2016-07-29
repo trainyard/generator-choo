@@ -8,12 +8,22 @@
     {
       "name": "Juan Soto",
       "email": "juan@juansoto.me",
-      "url": "juansoto.me"
+      "url": "http://juansoto.me"
     },
     {
       "name": "Matt McFarland",
       "email": "contact@mattmcfarland.com",
       "url": "https://github.com/MattMcFarland"
+    },
+    {
+      "name": "Hemanth.HM",
+      "email": "hemanth.hm@gmail.com",
+      "url": "https://h3manth.com"
+    },
+    {
+      "name": "Ilya Radchenko",
+      "email": "ilya@burstcreations.com",
+      "url": "http://burstcreations.com/"
     }
   ],
   "engines": {
